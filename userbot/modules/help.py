@@ -25,7 +25,7 @@ async def help(event):
         if args in CMD_HELP:
             await event.edit(str(CMD_HELP[args]))
         else:
-            await event.edit("**`User Alpha, Command Yang Anda Cari Tidak Ditemukan 😔`**")
+            await event.edit("**`User Xtiger, Command Yang Anda Cari Tidak Ditemukan 😔`**")
             await asyncio.sleep(200)
             await event.delete()
     else:
@@ -33,7 +33,7 @@ async def help(event):
         for i in CMD_HELP:
             string += "`" + str(i)
             string += "`\t |  "
-        await event.edit("**⚙️ Alpha Userbot ⚙️**\n\n"
+        await event.edit("**⚙️ User X Tiger ⚙️**\n\n"
                          f"**🤵 Pengguna : {DEFAULTUSER}**\n**📚 Modules : {len(modules)}**\n\n"
                          "**➦ Main Menu :**\n"
                          f"| {string}\n\n")
