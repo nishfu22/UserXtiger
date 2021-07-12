@@ -102,7 +102,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/AftahBagas/Alpha-Userbot.git")
+    "https://github.com/nishfu22/UserXtiger.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Alpha")
 
@@ -164,7 +164,7 @@ USER_AGE = os.environ.get("USER_AGE", None)
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "😈")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🐯")
 
 # Untuk Commandmu
 CMD_TRIGGER = os.environ.get("CMD_TRIGGER", ".")
@@ -203,7 +203,7 @@ PMPERMIT_LOGO = os.environ.get(
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/8e6b4b62512e126e36ee5.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/fe5239964c7acc0d9ef69.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -421,7 +421,7 @@ with bot:
         @ tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply(f"👋🏻 Halo Kamu Yang disana Saya adalah bot assistant dari {ALIVE_NAME} Buat Alphamu Sendiri Dengan  [Tekan Disini](https://github.com/AftahBagas/Alpha-Userbot.git)")
+                await event.reply(f"👋🏻 Halo Kamu Yang disana Saya adalah bot assistant dari {ALIVE_NAME} Buat Alphamu Sendiri Dengan  [Tekan Disini](https://github.com/nishfu22/UserXtiger.git)")
             else:
                 await event.reply(f"`Hai {ALIVE_NAME}\n\nApa Kabarmu?`")
 
@@ -434,7 +434,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n**Alpha Userbot 😈**\n\n**Plugins** `{}` 📚\n".format(
+                    text="{}\n**UserXtiger 🐯**\n\n**Plugins** `{}` 📚\n".format(
                         "**❕HELP INLINE MENU❕**",
                         len(dugmeler),
                     ),
@@ -455,10 +455,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/AftahBagas/Alpha-Userbot.git"),
+                                "https://github.com/nishfu22/UserXtiger.git"),
                             custom.Button.url(
                                 "Pemilik",
-                                "t.me/kanjengingsun"),
+                                "t.me/pachemild"),
                             custom.Button.url(
                                 "Group",
                                 "t.me/teamsquaduserbotsupport")],
