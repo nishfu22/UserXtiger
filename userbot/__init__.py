@@ -102,7 +102,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/nishfu22/UserXtiger.git")
+    "https://github.com/nishfu22/UserXtiger")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Alpha")
 
@@ -455,7 +455,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/nishfu22/UserXtiger.git"),
+                                "https://github.com/nishfu22/UserXtiger"),
                             custom.Button.url(
                                 "Pemilik",
                                 "t.me/pachemild"),
