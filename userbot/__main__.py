@@ -27,7 +27,7 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"[🔥Alpha Berhasil Diaktifkan🔥]")
+    f"[🔥UserXtiger Berhasil Diaktifkan🔥]")
 
 
 if len(argv) not in (1, 3, 4):
