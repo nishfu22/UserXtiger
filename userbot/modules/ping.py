@@ -39,10 +39,10 @@ async def pingme(pong):
     start = datetime.now()
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**Ping Userbot 😜**\n"
-                    f"➥ **Ping •** "
+    await pong.edit(f"**Ping UserXtiger 🐯**\n"
+                    f"🐯 **Ping •** "
                     f"`%sms` \n"
-                    f"➥ **Uptime •** "
+                    f"🐯 **Uptime •** "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -62,7 +62,7 @@ async def pingme(pong):
     await pong.edit("**⚡**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"┍《 **𝘼 𝙇 𝙋 𝙃 𝘼** 》━─\n"
+    await pong.edit(f"┍《 **USER X TIGER** 》━─\n"
                     f"┟➠  __Ping:__ "
                     f"`%sms` \n"
                     f"┞➠ __Uptime:__ "
