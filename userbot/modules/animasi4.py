@@ -124,7 +124,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`⚡`")
     sleep(1)
-    await typew.edit("`I am Alpha Userbot`")
+    await typew.edit("`I am User X Tiger`")
 
 
 @register(outgoing=True, pattern='^.kabar(?: |$)(.*)')
@@ -141,7 +141,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("⚡")
     sleep(2)
-    await typew.edit("**😈Alpha Userbot😈**\n\n [Tekan sini](https://github.com/AftahBagas/Alpha-Userbot)")
+    await typew.edit("**🐯 UserXtiger🐯**\n\n [Tekan sini](https://github.com/nishfu22/UserXtiger)")
 
 # Ini Tercipta Hasil Gabut Doang
 
