@@ -89,7 +89,7 @@ class CmdHelp:
                 result += f"**Command :** `{PATTERNS[:1]}{command['command']} {command['params']}`\n"
 
             if command['example'] is None:
-                result += f"**Command Alpha UserBot :** `{command['usage']}`\n\n"
+                result += f"**Command UserXtiger :** `{command['usage']}`\n\n"
             else:
                 result += f"**Pesan :** `{command['usage']}`\n"
                 result += f"**Sample :** `{PATTERNS[:1]}{command['example']}`\n\n"
