@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**🧃**Alpha Versi:** \n "
+            "**🧃**UserXtiger Versi:** \n "
             f"{verout}"
             "\n**🧃**Revisi:**\n "
             f"{revout}"
@@ -226,7 +226,7 @@ async def amireallyalive(alive):
     await alive.edit("⚡")
     output = (
         f"**╭── ─ ─ ─ ─ ─ ** \n"
-        f"**__The Alpha Userbot...__  ** \n"
+        f"**__USER X TIGER...__** \n"
         f"**╰── ─ ─ ─ ─ ─ ** \n"
         f"**{ALIVE_TEKS_KUSTOM}** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -263,7 +263,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"┏═════━━━━━━━━━━━━═════\n"
-        f"▕ **__ALPHA USERBOT__ **\n"
+        f"▕ **__USER X TIGER__ **\n"
         f"┗═════━━━━━━━━━━━━═════\n"
         f" ➥ **Pengguna**    ⁃ `{DEFAULTUSER}` \n"
         f" ➥ **Username**    ⁃ @{user.username} \n"
@@ -272,7 +272,7 @@ async def amireallyalive(alive):
         f" ➥ **Versi**       ⁃ `7.0` \n"
         f" ➥ **Modul**       ⁃ `{len(modules)}` \n"
         f"┏═════━━━━━━━━━━━━═════\n"
-        f"▕ [Repo](https://github.com/AftahBagas/Alpha_) | [Grup Support](t.me/teamsquaduserbotsupport) | [Owner](t.me/Kanjengingsun)\n"
+        f"▕ [Repo](https://github.com/nishfu22/UserXtiger) | [Grup Support](t.me/teamsquaduserbotsupport) | [Owner](t.me/pachemild)\n"
         f"┗═════━━━━━━━━━━━━═════")
     if ALIVE_LOGO:
         try:
@@ -312,9 +312,9 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**ㅤㅤ  ╭─━━━━━━━━━━━─╮** \n"
-        f"**                  😈𝗔 𝗟 𝗣 𝗛 𝗔😈  ** \n"
+        f"**           🐯 USER X TIGER 🐯** \n"
         f"**ㅤㅤ  ╰─━━━━━━━━━━━─╯** \n"
-        f" **Kalo Dia Bisa Ngapain Aku enggak ㋡**         \n"
+        f" **GAUSAH BACOT PAKE AJA UDAH ㋡**         \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"╟ ➦ 👑 **Owner**    = `{DEFAULTUSER}` \n"
         f"╟ ➦ 💳 **Username** = @{user.username} \n"
@@ -325,7 +325,7 @@ async def amireallyalive(alive):
         f"╟ ➦ 🔮 **Plugins**  = `{len(modules)} Plugins` \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"[Repo](https://github.com/AftahBagas/Alpha_) | [Group Support](https://t.me/TeamSquadUserbotSupport) | [Owner](t.me/kanjengingsun)\n"
+        f"[Repo](https://github.com/nishfu22/UserXtiger) | [Group Support](https://t.me/TeamSquadUserbotSupport) | [Owner](t.me/pachemild)\n"
         f"┗━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
         try:
