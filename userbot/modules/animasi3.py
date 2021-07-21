@@ -3,15 +3,15 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.alfa(?: |$)(.*)')
+@register(outgoing=True, pattern='^.nisfu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
     await typew.edit("`halo kawan`")
     sleep(2)
-    await typew.edit("`namaku alfareza`")
+    await typew.edit("`namaku nishfu`")
     sleep(1)
-    await typew.edit("`16 tahun tinggal di Pati,salken ya:)`")
+    await typew.edit("`20 tahun tinggal di NTT,salken ya:)`")
 
 # Create by myself @localheart
 
