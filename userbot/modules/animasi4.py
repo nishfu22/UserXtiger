@@ -40,11 +40,11 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("nyenyenyenye")
+    await typew.edit("BACOT NGOMONG MULU")
     sleep(1)
-    await typew.edit("apasih ngomong apa")
+    await typew.edit("GA AUS APA TENGGOROKAN")
     sleep(1)
-    await typew.edit("gajelas anjir")
+    await typew.edit("GBLK")
 
 
 @register(outgoing=True, pattern='^.linkk(?: |$)(.*)')
