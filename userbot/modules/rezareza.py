@@ -71,7 +71,7 @@ async def mention_afk(mention):
         if mention.sender_id not in USERS or chat_title not in USERS:
             if AFKREASON:
                 await mention.reply(
-                    f"**User Alpha Sedang Afk !**\n  **Alasan : {AFKREASON}**"
+                    f"**Lord gua lagi afk !**\n  **Alasan : {AFKREASON}**"
                     f"\n\n⏱️ `Terakhir Dilihat: {afk_str}`."
                 )
             else:
@@ -87,7 +87,7 @@ async def mention_afk(mention):
             if USERS[mention.sender_id] % randint(2, 4) == 0:
                 if AFKREASON:
                     await mention.reply(
-                        f"**User Alpha Sedang Afk** \n  **Alasan : {AFKREASON}**"
+                        f"**Lord gua lagi Afk ** \n  **Alasan : {AFKREASON}**"
                         f"\n\n⏱️ `Terakhir Dilihat: {afk_str}`."
                     )
                 else:
@@ -158,7 +158,7 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                 if AFKREASON:
                     await sender.reply(
-                        f"**User Alpha Sedang Afk** \n  **Alasan : {AFKREASON}**"
+                        f"**Lord gua lagi afk** \n  **Alasan : {AFKREASON}**"
                         f"\n\n⏱️ `Terakhir Dilihat: {afk_str}`."
                     )
                 else:
@@ -172,7 +172,7 @@ async def afk_on_pm(sender):
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
                         await sender.reply(
-                            f"**User Alpha Sedang Afk** \n  **Alasan : {AFKREASON}**"
+                            f"**Lord gua lagi afk** \n  **Alasan : {AFKREASON}**"
                             f"\n\n⏱️ `Terakhir Dilihat: {afk_str}`."
                         )
                     else:
