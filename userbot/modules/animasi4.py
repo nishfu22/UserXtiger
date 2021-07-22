@@ -22,18 +22,18 @@ async def typewriter(typew):
     await typew.edit("masuk pak eko")
 
 
-@register(outgoing=True, pattern='^.tele(?: |$)(.*)')
+@register(outgoing=True, pattern='^.pece(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("PC")
+    await typew.edit("PC Doangggg")
     sleep(1)
-    await typew.edit("lanjut vc")
+    await typew.edit("Dibales kaga")
     sleep(1)
-    await typew.edit("nyaman")
+    await typew.edit("Paling di read doang")
     sleep(1)
-    await typew.edit("dighosting")
-    await typew.edit("siklus player tele")
+    await typew.edit("😌")
+    await typew.edit("Persetan dengan PC")
 
 
 @register(outgoing=True, pattern='^.bacot(?: |$)(.*)')
@@ -47,7 +47,7 @@ async def typewriter(typew):
     await typew.edit("GBLK")
 
 
-@register(outgoing=True, pattern='^.linkk(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kaget(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -71,7 +71,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("10")
     sleep(1)
-    await typew.edit("[jangan dipencet anjir](https://pornhub.com)")
+    await typew.edit("Jederrrr ajg kaget")
 
 
 @register(outgoing=True, pattern='^.pesawat(?: |$)(.*)')
