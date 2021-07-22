@@ -226,14 +226,13 @@ async def amireallyalive(alive):
     await alive.edit("⚡")
     output = (
         f"**╭── ─ ─ ─ ─ ─ ** \n"
-        f"**__USER X TIGER...__** \n"
+        f"**__USER X TIGER__** \n"
         f"**╰── ─ ─ ─ ─ ─ ** \n"
         f"**{ALIVE_TEKS_KUSTOM}** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣ Owner    = `{DEFAULTUSER}` \n"
         f"┣ Telethon = `v. {version.__version__}` \n"
         f"┣ Python   = `v. {python_version()}` \n"
-        f"┣ Branch   = `{UPSTREAM_REPO_BRANCH}` \n"
         f"┣ Bot Ver  = `v. 7.0` \n"
         f"┣ Plugins  = `{len(modules)} Plugins` \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
@@ -312,20 +311,19 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**ㅤㅤ  ╭─━━━━━━━━━━━─╮** \n"
-        f"**           🐯 USER X TIGER 🐯** \n"
+        f"**        🐯 USER X TIGER 🐯   ** \n"
         f"**ㅤㅤ  ╰─━━━━━━━━━━━─╯** \n"
-        f" **GAUSAH BACOT PAKE AJA UDAH ㋡**         \n"
+        f" ** GAUSAH BACOT PAKE AJA UDAH ㋡ **         \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"╟ ➦ 👑 **Owner**    = `{DEFAULTUSER}` \n"
-        f"╟ ➦ 💳 **Username** = @{user.username} \n"
-        f"╟ ➦ ⚙️ **Telethon** = `v. {version.__version__}` \n"
-        f"╟ ➦ 🐍 **Python**   = `v. {python_version()}` \n"
-        f"╟ ➦ 🥽 **Branch**   = `{UPSTREAM_REPO_BRANCH}` \n"
-        f"╟ ➦ 🎃 **Bot Ver**  = `v. 7.0` \n"
-        f"╟ ➦ 🔮 **Plugins**  = `{len(modules)} Plugins` \n"
+        f"╟ ➦ 🤵🏻 **Owner**    = `{DEFAULTUSER}` \n"
+        f"╟ ➦ ☣ **Username** = @{user.username} \n"
+        f"╟ ➦ ☣ **Telethon** = `v. {version.__version__}` \n"
+        f"╟ ➦ ☣ **Python**   = `v. {python_version()}` \n"
+        f"╟ ➦ ☣**Bot Ver**  = `v. 7.0` \n"
+        f"╟ ➦ ☣ **Plugins**  = `{len(modules)} Plugins` \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"[Repo](https://github.com/nishfu22/UserXtiger) | [Group Support](https://t.me/TeamSquadUserbotSupport) | [Owner](t.me/pachemild)\n"
+        f"[Repo](https://github.com/nishfu22/UserXtiger) | [Channel Support](https://t.me/kutipankitaa) | [Owner](t.me/pachemild)\n"
         f"┗━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
         try:
