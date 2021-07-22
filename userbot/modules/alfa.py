@@ -92,7 +92,7 @@ async def typewriter(typew):
     await typew.edit("`-TAMAT-`")
 
 
-@register(outgoing=True, pattern='^.dino(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ibuibu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`KANG ADIT KANG ADIT.....`")
