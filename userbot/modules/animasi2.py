@@ -26,12 +26,12 @@ async def typewriter(typew):
     await typew.edit("`BUKAN APA YG KITA INGINKAN `")
     sleep(2)
     await typew.edit("`TETAP SEMANGAT YAA`")
-    sleep(3)
+    sleep(1)
     await typew.edit("`😁`")
     sleep(2)
-    await typew.edit("`BELAJAR DARI SEBUAH KESALAHAN`")
+    await typew.edit("`😊`")
     sleep(2)
-    await typew.edit("`😂`")
+    await typew.edit("`❤`")
 # Create by myself @localheart
 
 
@@ -43,21 +43,21 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`GA PERNAH SLIPKOLAN`")
     sleep(1)
-    await typew.edit("`🥺🥺🥺`")
+    await typew.edit("`🥺`")
     sleep(1)
-    await typew.edit("`🥺🥺`")
+    await typew.edit("`😔`")
     sleep(1)
-    await typew.edit("`😭🙃`")
+    await typew.edit("`🙁`")
     sleep(1)
-    await typew.edit("`😭😭😭😭`")
+    await typew.edit("`😭`")
     sleep(1)
     await typew.edit("`GADA YG MAU SAMA GUA 😔`")
     sleep(1)
     await typew.edit("`TOLONG HAMBA YALLAH 🥺`")
     sleep(1)
-    await typew.edit("`🙂🙃😭`")
+    await typew.edit("`😭`")
     sleep(1)
-    await typew.edit("`🥺BISMILLAH SLEEPCALL 🥺`")
+    await typew.edit("`BISMILLAH SLEEPCALL 🥺`")
 # Create by myself @localheart
 
 
@@ -92,11 +92,11 @@ async def koc(e):
         await e.edit("PE")
         sleep(2)
         await e.edit("SENGGOL DONG")
-        sleep(2)
+        sleep(1)
         await e.edit("1 GRUP LAWAN GUA")
-        sleep(2)
+        sleep(1)
         await e.edit("CUPU")
-        sleep(2)
+        sleep(1)
         await e.edit("KENA MENTAL YAA CUK")
         sleep(2)
         await e.edit("MASAK AER")
@@ -131,7 +131,7 @@ async def koc(e):
         sleep(1)
         await e.edit("3")
         sleep(1)
-        await e.edit("MENGHILANG TWING")
+        await e.edit("MENGHILANG TWING 💥")
 # Create by myself @localheart
 
 
@@ -267,25 +267,25 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.yang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sepi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("` Sayang udah makan? `")
+    await typew.edit("`Woy sepi amaaatt`")
     sleep(1)
-    await typew.edit("`Apa Kabar mu`")
+    await typew.edit("`pepepepepepepepe`")
     sleep(1)
-    await typew.edit("` Kuharap  `")
+    await typew.edit("` Bakar aja bakar  `")
     sleep(1)
-    await typew.edit("` kau`")
+    await typew.edit("` senggol dong`")
     sleep(1)
-    await typew.edit("`Baik-baik saja`")
+    await typew.edit("`Ah anj gua gabut`")
     sleep(2)
-    await typew.edit("`Aku sayang kamu`")
+    await typew.edit("`Nimbrung napa gblok`")
     sleep(1)
-    await typew.edit("`Tapi kamu nya tidak`")
+    await typew.edit("`Mau gua santet?`")
     sleep(1)
-    await typew.edit("`Semoga engkau baik baik saja meski tak kumiliki.`")
+    await typew.edit("`Dahlah cape 🏃‍♂️🏃‍♂️🏃‍♂️`")
 # Create by myself @localheart
 
 
