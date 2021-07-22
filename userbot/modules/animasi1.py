@@ -58,7 +58,7 @@ async def typewriter(typew):
     await typew.edit("pantes **NORAK**")
 
 
-@register(outgoing=True, pattern='^.jawa(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ntt(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -137,7 +137,7 @@ async def typewriter(typew):
     await typew.edit("`💛💙🧡💜`")
     await typew.edit("`Ada pantun Nih`")
     await typew.edit("`IKAN TONGKOL MAKAN HIU`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`SLIPKOL YUK 😱💃💃`")
 
 
